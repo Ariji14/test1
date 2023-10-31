@@ -7,7 +7,9 @@
             <p><button type="submit">Login</button></p>
             <div class="error" v-if="error">{{error}}</div>
         </form>
+            
     </div>
+    
 </template>
 <script>
 import AuthenService from '@/services/AuthenService'
@@ -31,7 +33,7 @@ export default {
                 this.$store.dispatch('setUser', response.data.user)
 
                 this.$router.push({
-                    name: 'users'
+                    name: 'jewelry'
                 })
 
             } catch (error) {

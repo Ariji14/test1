@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
     <div>
       <div>
         <h1>Get Jewelry By Id</h1>
@@ -41,4 +41,4 @@
   
   <style scoped>
   </style>
-   -->
+  

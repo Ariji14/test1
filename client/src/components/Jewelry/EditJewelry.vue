@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
     <div>
       <h1>Edit Jewelry</h1>
       <form @submit.prevent="editJewelry">
@@ -67,4 +67,4 @@
   <style scoped>
   
   </style>
-   -->
+  
