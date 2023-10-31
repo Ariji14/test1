@@ -2,7 +2,7 @@
     <div class="form-container">
         <h1 class="heading">User Login</h1>
         <form v-on:submit.prevent="onLogin">
-            <p class="text">Username: <input type="text" v-model="email" class="input" /></p>
+            <p class="text">Email: <input type="text" v-model="email" class="input" /></p>
             <p class="text">Password: <input type="password" v-model="password" class="input" /></p>
             <p>
                 <button type="submit" class="send-button">Login</button>
