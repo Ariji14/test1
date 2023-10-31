@@ -84,7 +84,7 @@ export default {
 </script>
 
 <style scoped>
-/* สไตล์สำหรับหน้า "Get All Users" */
+
 .user-page {
   font-family: 'Playfair Display', serif;
   background-color: #f9f9f9;

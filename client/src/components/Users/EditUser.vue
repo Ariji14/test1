@@ -61,7 +61,7 @@
   </script>
   
   <style scoped>
-  /* สไตล์สำหรับหน้าแก้ไขผู้ใช้ */
+  
   h1 {
     font-size: 24px;
     color: #333;

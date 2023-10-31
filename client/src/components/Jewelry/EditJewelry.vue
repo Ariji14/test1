@@ -75,7 +75,7 @@ export default {
 </script>
 
 <style scoped>
-/* สไตล์สำหรับหน้าแก้ไขเครื่องประดับ */
+
 h1 {
   font-size: 64px;
   color: #333;
