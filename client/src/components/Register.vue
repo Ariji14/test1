@@ -30,7 +30,7 @@ import UsersService from '../services/UsersService';
                 try {
                     await UsersService.post(this.user)
                     this.$router.push({
-                        name: 'users'
+                        name: 'login'
                     })
                 }catch (error) {
                     console.log(error)
