@@ -7,6 +7,7 @@
             <p><button type="submit">Login</button></p>
             <div class="error" v-if="error">{{error}}</div>
         </form>
+        <div><button @click="navigateTo('/register')">register</button></div>
             
     </div>
     
@@ -22,6 +23,11 @@ export default {
         }
     },
     methods: {
+
+        navigateTo(route) {
+            this.$router.push(route)
+        },
+        
         async onLogin() {
             try {
                 const response = await AuthenService.login({
